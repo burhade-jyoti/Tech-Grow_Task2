@@ -1,0 +1,66 @@
+  .multi-background {
+            width: 500px;
+            height: 500px;
+            background: 
+                url('img/bb.png') no-repeat center center, 
+                url('img/bb.png') no-repeat center center;
+            background-size: cover;
+            animation: changeBackgrounds 5s infinite alternate;
+        }
+
+        @keyframes changeBackgrounds {
+            0% {
+                background-position: 0% 0%, 100% 100%;
+            }
+            100% {
+                background-position: 100% 100%, 100% 0%;
+            }
+        }
+
+
+.container-fluid{
+   /* background: linear-gradient(to right, #ff7e5f, #feb47b); /* A gradient from pink to orange */
+    padding-top: 18px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+{
+     padding-top: 18px;
+}
+.para-topic{
+text-align: center;
+font-size: 22px;
+}
+
+
+.col {
+    background-image:url('image/b.png');
+    background-size: cover;
+    border-radius:50px ;
+}
+.container-fluid{
+    background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+     color: black;
+     background-size: cover;
+    border-radius:50px 
+}
+ .container-fluid1 {
+    padding-top: 200px;
+  }
+   img {
+            width: 450px;
+            height: 450px;
+            display: inline-block; /* Image as inline-block */
+            margin-right: 10px; /* Space between the image and text */
+             transition: transform 1s ease;
+        }
+        img:hover {
+            transform: rotate(360deg);  /* Rotate 360 degrees on hover */
+        }
+        .container-fluid1{
+          background:url(img/bbbb.png);
+          background-size: cover;
+        }
+        .container-fluid2{
+          background-color: orange;
+        }
